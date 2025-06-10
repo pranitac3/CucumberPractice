@@ -26,7 +26,7 @@ public class RegisterStep extends BaseTest {
         Assert.assertEquals(driver.getTitle(), "Selenium Practice - Register");
     }
 
-    @When("users enters FirstName, LastName, UserName, Password, {int}")
+    @When("users enters FirstName, LastName, UserName, Password")
     public void users_enters() throws IOException {
         registerPage.enterFirstName(DataReader.getCellData("Sheet1", 1, 0));
         registerPage.enterLastName(DataReader.getCellData("Sheet1", 1, 1));
