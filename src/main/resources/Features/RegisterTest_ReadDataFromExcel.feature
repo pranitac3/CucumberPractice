@@ -10,7 +10,7 @@ Feature: Register
     #pre-reqiuisite
     Given user is on Register Page
     #Action
-    When users enters FirstName, LastName, UserName, Password, 1
+    When users enters FirstName, LastName, UserName, Password
 
     And user clicks on Register
     Then user should register successfully
