@@ -18,8 +18,5 @@ public class DriverFactory {
     {
         return  driver;
     }
-    public static void takeScreenshot()
-    {
 
-    }
 }

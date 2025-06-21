@@ -16,8 +16,8 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber.json"
         },
         monochrome = true,
-        tags = "@ReadDataFromExcel"
+        tags = "@ExampleTableTestHmeWork"
+
 )
 public class TestRunner {
 }
-
